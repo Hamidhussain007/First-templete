@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(128, 123, 123);
+}    
+/* #container{ */
+    
+/* } */
+#sec-1{
+    background: url(22222.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    height: 120vh ;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row{
+    color: white;
+    margin-top: 50px;
+}
+.heading1{
+    font-size: 19px;
+}
+.heading1 span{ 
+    color: red;
+}
+.para1{
+    display: flex;
+    flex-direction: row;
+}
+.line-1{
+    border: 2px solid brown;
+    border-radius: 10px;
+    height: 110px;
+    margin-top: 45px;
+}
+.hum h2{
+    margin-left: 10px;
+    font-size: 39px;
+}
+.hum h3{
+    margin: -20px 0 0 10px;
+    font-size: 25px;
+}
+.para3{
+    width: 410px;
+}
+.button{
+    color: white;
+    background: rgb(214, 33, 33);
+    width: 179px;
+    height: 34px;
+    border: none;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.button:hover{
+    color: black;
+    background: orangered;
+    transition: .5s;
+}
+.form{
+    background: white;
+    width: 300px ;
+    height: 530px;
+}
+.form h3{
+    font-size: 23px;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding: 30px 0 30px 0;
+    margin: 0;
+}
+.form input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    margin: 15px 19px;
+    height: 39px;
+    background: rgb(240, 224, 159);
+    border: none;
+    outline: none;
+}
+.form select{
+    width: 263px;
+    margin-left: 19px;
+    height: 39px;
+    background: rgb(240, 224, 159);
+    border: none;
+    outline: none;
+}
+.btn{
+    width: 263px;
+    margin: 15px 19px; 
+    height: 39px;
+    border: none;
+    background:tomato ;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background: orangered;
+    transition: .5s;
+} 
+/* sec-1 is end here */
+
+
+
+/* <!-- sec-2 is start here --> */
+#sec-2{
+    background-color: rgb(27, 27, 59);
+    height: 23vh;
+}
+.home1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sec{
+    padding: 32px 0;
+}    
+.sec i{
+    
+    text-align: center;
+    padding: 25px 10px;
+    color: white;
+    background: rgb(13, 13, 39);
+    border: none;
+    font-size: 30px;
+}
+/* <!-- sec-2 is end here --> */
+
+
+
+/* <!-- sec-3 is start here --> */
+
+/* container-3 is start here */
+#sec-3{
+    height: 50%;
+    background: tomato;
+}
+.boxes{
+    margin: 30px 230px;
+
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+}
+.heads{
+    display: flex;
+    flex-direction: row;
+}
+.line-2{
+    border: 2px solid red;
+    height: 60px; 
+    border-radius: 5px;  
+    margin-top: 27px;
+}
+.heads h2{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.pera-1 {
+    color: rgb(111, 136, 136);
+    margin-top: -20px;
+    width: 450px;
+}
+.lorem span{
+    color: white;
+    background: rgb(248, 81, 52);
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 5px 14px;   
+}
+.lorem h2{
+    font-size: 19px;
+    margin: -35px 0 -16px 50px;
+}
+.lorem p{
+    margin-left: 50px;
+    color: rgb(111, 136, 136);
+}
+.img{
+    margin-top: 70px;
+} 
+/* container-3 is end here */
+
+
+/* container-4 is start here --> */
+.boxes{
+margin: 30px 230px;
+
+} 
+.container-4{
+text-align: center;
+background:  rgb(180, 48, 0);
+height: 90vh;
+}
+.container-4 h1{
+font-size: 30px;
+padding-top: 35px;
+color: white;
+}
+.container-4 p{
+color: white;
+}
+.line-4{
+border: 2px solid white;
+width: 70px;
+margin-left: 410px;
+border-radius: 5px;   
+}
+.container-4 img{
+margin-top: 45px;
+width: 450px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;    
+}
+.line-5{
+border: 13px solid white;
+width: 60%;
+border-radius: 4px;
+margin: -4px 167px;
+} 
+/* /* container-4 is end here  */
+
+
